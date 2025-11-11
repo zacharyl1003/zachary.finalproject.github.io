@@ -1,0 +1,97 @@
+/* Simple CSS for GitHub Pages (beginner friendly) */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: #f4f6f9;
+  color: #222;
+}
+
+/* Header */
+header {
+  background: #12324a;
+  color: white;
+  padding: 16px 0;
+  border-bottom: 1px solid #0d2638;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.site-title { margin: 0; }
+.tagline { margin: 4px 0 8px 0; color: #d7e6f7; }
+
+nav a {
+  color: #cfe4ff;
+  text-decoration: none;
+  margin-right: 12px;
+}
+nav a:hover { text-decoration: underline; }
+
+/* Sections */
+section { padding: 20px 0; }
+h2 { margin-top: 0; }
+
+/* Photo: professional placement */
+.photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #cfe4ff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.photo-right {
+  float: right;
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+
+.clear { clear: both; }
+
+/* Cards */
+.card {
+  background: white;
+  border: 1px solid #e3e7ee;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  margin-bottom: 12px;
+}
+
+/* Buttons */
+.button, button {
+  background: #2563eb;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.button:hover, button:hover { opacity: 0.9; }
+.actions { margin: 10px 0; }
+.actions .button { margin-right: 8px; }
+
+/* Lists inside cards */
+.card ul { padding-left: 18px; }
+.card li { margin-bottom: 4px; }
+
+/* Footer */
+footer {
+  background: #ffffff;
+  border-top: 1px solid #e3e7ee;
+  padding: 12px 0;
+  color: #555;
+}
+
+/* Small screens: stack the photo nicely */
+@media (max-width: 600px) {
+  .photo-right { float: none; display: block; margin: 10px auto; }
+}
