@@ -1,4 +1,4 @@
-/* Simple CSS for GitHub Pages (beginner friendly) */
+/* Simple CSS for GitHub Pages */
 
 body {
   margin: 0;
@@ -36,7 +36,7 @@ nav a:hover { text-decoration: underline; }
 section { padding: 20px 0; }
 h2 { margin-top: 0; }
 
-/* Photo: professional placement */
+/* Photo */
 .photo {
   width: 220px;
   height: 220px;
@@ -91,7 +91,7 @@ footer {
   color: #555;
 }
 
-/* Small screens: stack the photo nicely */
+/*stack the photo nicely */
 @media (max-width: 600px) {
   .photo-right { float: none; display: block; margin: 10px auto; }
 }
